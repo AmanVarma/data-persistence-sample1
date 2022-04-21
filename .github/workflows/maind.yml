@@ -43,4 +43,3 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/nodeapp:latest
-          echo test, and deploy your project.
